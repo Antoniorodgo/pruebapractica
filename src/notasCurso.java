@@ -48,7 +48,7 @@
 		
 		public void comprobacion(){
 			
-			if (notaUf1>10) {
+			if (notaUf1>10 ) {
 				System.out.println(" nota1 mal introducida");
 				
 			}else {
