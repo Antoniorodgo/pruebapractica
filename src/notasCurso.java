@@ -75,7 +75,7 @@
 			 
 		 */
 		
-		public void Calcnotas() {
+		public void Calcunotas() {
 			acum1= notaUf1 *0.35;
 			acum2 = notaUf2 * 0.35;
 			acum3 = notaUf2 * 0.30;
@@ -133,7 +133,7 @@
 			fc.IngresoNotas();
 			
 			fc.comprobacion();
-			fc.Calcnotas();
+			fc.Calcunotas();
 			fc.Demostrar();
 			
 			fc.aprobar();
