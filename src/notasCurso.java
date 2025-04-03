@@ -121,7 +121,7 @@
 			}
 		
 		public void mostrarNota(){
-			notaFinal = def;
+			notaFinal = (def +1);
 			System.out.println(" Mi nota final es: " + notaFinal );
 			}
 			
