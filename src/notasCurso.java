@@ -12,7 +12,7 @@
 		/**
 		 * Variables donde se almacenan las notas de la unidad formativa
 		 */
-		
+		double notaFinal;
 		double notaUf1, notaUf2, notaUf3;
 		/**
 		 * Variables donde se almacenan los acumulados de la nota ponderados 
@@ -139,6 +139,10 @@
 			fc.aprobar();
 			
 		}
-
+		public void mostrarNota(){
+			
+		System.out.println(" Mi nota final es: " + notaFinal );
+		}
+		
 	}
 
