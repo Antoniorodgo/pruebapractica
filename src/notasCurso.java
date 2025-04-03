@@ -119,6 +119,12 @@
 					}
 				}
 			}
+		
+		public void mostrarNota(){
+			
+			System.out.println(" Mi nota final es: " + notaFinal );
+			}
+			
 		/**
 		 * crea un objeto de la clase Notas y ejecuta los métodos
 		 * @param args
@@ -137,12 +143,10 @@
 			fc.Demostrar();
 			
 			fc.aprobar();
+			fc.mostrarNota();
 			
 		}
-		public void mostrarNota(){
-			
-		System.out.println(" Mi nota final es: " + notaFinal );
-		}
+		
 		
 	}
 
